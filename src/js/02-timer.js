@@ -61,25 +61,25 @@ function updateTimeTimer(time) {
 }
 
 function updateTextTimer() {
-  if (refs.daysAmount.textContent == 01) {
+  if (refs.daysAmount.textContent === '01') {
     refs.daysText.textContent = 'Day';
   } else {
     refs.daysText.textContent = 'Days';
   }
 
-  if (refs.hoursAmount.textContent == 01) {
+  if (refs.hoursAmount.textContent === '01') {
     refs.hoursText.textContent = 'Hour';
   } else {
     refs.hoursText.textContent = 'Hours';
   }
 
-  if (refs.minutesAmount.textContent == 01) {
+  if (refs.minutesAmount.textContent === '01') {
     refs.minutesText.textContent = 'Minute';
   } else {
     refs.minutesText.textContent = 'Minutes';
   }
 
-  if (refs.secondsAmount.textContent == 01) {
+  if (refs.secondsAmount.textContent === '01') {
     refs.secondsText.textContent = 'Second';
   } else {
     refs.secondsText.textContent = 'Seconds';
